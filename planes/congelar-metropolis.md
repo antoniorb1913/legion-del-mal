@@ -6,3 +6,4 @@ El objetivo es congelar la ciudad de Metrópilis para detener el tiempo y preser
 
 1. **Preparación del equipo**: Asegúrarte de contar con el equipo necesario.
 2. **Identificación de áreas críticas**: Determinar las zonas de la ciudad que necesitan ser congeladas primero.
+3. **Monitor del proceso**: Supervisa el estado de la ciudad durante el proceso de congelación.
