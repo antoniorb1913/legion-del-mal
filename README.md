@@ -1,5 +1,7 @@
 ![Estático](https://img.shields.io/badge/Legion--del--Mal-Activa-blue)
 
+![Con logo](https://img.shields.io/badge/Git-2.45-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 ![Workflow](https://img.shields.io/github/actions/workflow/status/antoniorb1913/legion-del-mal/ci.yml)
 ![Release](https://img.shields.io/github/v/release/antoniorb1913/legion-del-mal)
 ![Issues](https://img.shields.io/github/issues/antoniorb1913/legion-del-mal)
