@@ -1,5 +1,5 @@
 ---
-name: tEMPLATE PARA BUGS SOFTWARE
+name: TEMPLATE PARA BUGS SOFTWARE
 about: Ayúdanos a mejorar
 title: 'Bug:'
 labels: bug, enhancement
