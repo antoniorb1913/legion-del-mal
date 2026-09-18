@@ -1,0 +1,23 @@
+name: Respuesta Automatica Brainiac
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+    issues: write
+
+jobs:
+  responder_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comentar en el issue
+        uses: actions/github-script@v9.0.0
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '¡Hola! 🧠 Tu issue ha sido recibido y está siendo revisado por **Brainiac**.'
+            })
