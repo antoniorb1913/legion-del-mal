@@ -36,3 +36,8 @@ Spiderman es un superhéroe ficticio creado por el escritor Stan Lee y el dibuja
 - George Stacy
 - Betty Brant
 - Liz Allan
+
+## Estrategia recomendada
+
+**Mantener a Batman en Gotham a toda costa durante operaciones importantes.**
+El Joker es nuestra mejor herramienta para esto: Batman no puede ignorar al Joker en Gotham. Si Batman sale de Gotham y se involucra en una misión de la Legión, las probabilidades de fracaso aumentan un 60%.
