@@ -14,38 +14,9 @@ jobs:
     steps:
       - name: Cargar aclamaciones
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Obtener versión del tag
-        id: version
-        run: |
-          echo "tag=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
-          echo "tag_sin_v=${github.ref_name#v}" >> "$GITHUB_OUTPUT"
-
-      - name: Obtener commit anterior al tag
-        id: previo
-        run: |
-          echo "commit_anterior=${github.sha}" >> "$GITHUB_OUTPUT"
-
-      - name: Generar notas del release
-        id: notas
-        run: |
-          {
-            echo "notas<<EOF"
-            echo "## 🧠 Brainiac reporta la versión ${{ steps.version.outputs.tag_sin_v }}"
-            echo ""
-            echo "### 🚀 Cambios incluidos"
-            echo ""
-            git log "${{ github.ref_name }}" --oneline --no-merges || git log --oneline
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
       - name: Crear release con Brainiac
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.version.outputs.tag }}
-          name: Release ${{ steps.version.outputs.tag }}
-          body: ${{ steps.notas.outputs.notas }}
-          draft: false
-          prerelease: false
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          generate_release_notes: true
