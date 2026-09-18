@@ -9,3 +9,8 @@ Estos son los planes para destruir el mundo:
 4. Manipular el clima global para causar desastres naturales a gran escala, como huracanes, terremotos y tsunamis.
 5. Controlar los recursos esenciales como el agua y los alimentos, creando escasez y caos en la población mundial.
 6. Difundir propaganda y desinformación para sembrar el miedo y la desconfianza entre las naciones, debilitando la cooperación internacional.
+
+## Plan de escape
+
+- **Si el satélite es interceptado:** autodestrucción remota y negar todo
+- **Si rastrean la señal de control:** el centro de mando alterno está en la Fortaleza Prohibida
